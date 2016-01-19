@@ -1,4 +1,3 @@
-<!--
 Copyright (c) 2014 Hassan Hayat <hassan.hayat7@gmail.com>
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the 'Software'), to deal
@@ -15,8 +14,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
--->
-<!--
+
 Provides horizontally swipeable pages. Based in https://github.com/TheSeamau5/swipe-pages
 
 The `swipeable-pages` element is given a certain width and height
@@ -48,4 +46,3 @@ which is impossible given that the size of the `swipeable-pages` element is well
 @class swipeable-pages
 @blurb Provides horizontally swipeable pages.
 @status alpha
--->
