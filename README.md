@@ -35,7 +35,7 @@ between pages.
 Pages only transition when the swipe gesture has crossed a certain threshold
 which is exposed by the `threshold` attribute.
 ###Example:
-    <swipeable-pages threshold = '0.5'>
+    <swipeable-pages threshold = '0.5' page-count="3">
     </swipeable-pages>
 By setting the `threshold` to 0.5, you ensure that the page will only transition
 if the swipe gesture has crossed half the `swipeable-pages` width horizontally.
