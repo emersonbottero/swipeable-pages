@@ -20,8 +20,9 @@ Provides horizontally swipeable pages. Based in https://github.com/TheSeamau5/sw
 The `swipeable-pages` element is given a certain width and height
 through CSS and then each individual `swipeable-page` will automatically take of the full size of the parent element. This means that the children elements are assumed to all have the exact same size which they all derive from the `swipeable-pages`
 element.
+you must indicate the page-count
 ###Example:
-    <swipeable-pages selected = '1'>
+    <swipeable-pages class="flex horizontal layout" selected="{{selectedtab}}" page-count="[[tabs.length]]">
       <div>Hey I'm page 0</div>
       <div><h1>Hi, I'm on page 1</h1></div>
       <div><p>I am page 2 and I totally rock!</p></div>
